@@ -1,4 +1,4 @@
-const slug = require('rehype-slug')
+const slug = import('rehype-slug')
 
 module.exports = require('@zeit/next-mdx')({
   options: {
