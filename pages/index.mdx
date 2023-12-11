@@ -1,4 +1,14 @@
 import about from '../templates/about'
+import { Analytics } from '@vercel/analytics/react'
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  )
+}
 
 export const meta = {
   title: 'Haohao Yu',
@@ -7,6 +17,7 @@ export const meta = {
 }
 
 export default about(meta)
+export default MyApp
 
 <!-- content starts from here -->
 
@@ -16,4 +27,8 @@ Hi there, I'm an HCI student from China, welcome to my blog!
 
 
 
+
+ 
+
+ 
 
