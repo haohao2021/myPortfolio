@@ -1,14 +1,6 @@
 import about from '../templates/about'
 import { Analytics } from '@vercel/analytics/react'
 
-function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Component {...pageProps} />
-      <Analytics />
-    </>
-  )
-}
 
 export const meta = {
   title: 'Haohao Yu',
@@ -17,7 +9,6 @@ export const meta = {
 }
 
 export default about(meta)
-export default MyApp
 
 <!-- content starts from here -->
 
@@ -25,7 +16,7 @@ Hi there, I'm an HCI student from China, welcome to my blog!
 
 [email](mailto:haohao.yu@qq.com) · [ins](https://www.instagram.com/haohao.yu1123/)  · [douban](https://www.douban.com/people/weizhishux) · [bilibili](https://space.bilibili.com/280293477?spm_id_from=333.999.0.0) · [spotify](https://open.spotify.com/user/31ocz6om6a22baba6f4slccy4fyu?si=609b253a213f4d11)
 
-
+<Analytics />
 
 
  
