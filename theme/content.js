@@ -33,27 +33,39 @@ export default ({ children, meta = {} }) => (
         line-height: 1.7;
       }
       
-      // :global(:target) {
-      //   background: #fffa9e;
-      // }
-      // :global(ul) {
-      //   list-style-type: none;
-      //   padding: 0;
-      // }
-      // :global(li) {
-      //   padding-left: 1.1875em;
-      //   position: relative;
-      //   margin-bottom: .25em;
-      // }
-      // :global(li):before {
-      //   content: "•";
-      //   position: absolute;
-      //   left: .2em;
-      // }
-
       :global(a) {
         color: black; /* 设置超链接的颜色为黑色 */
         text-decoration: none; /* 取消超链接的下划线 */
+      }
+
+      /* 添加作品集样式 */
+      div :global(.portfolio-grid) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        padding: 0;
+      }
+
+      div :global(.portfolio-item) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      div :global(.portfolio-image) {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+      }
+
+      div :global(.portfolio-description) {
+        text-align: center;
+      }
+
+      @media all and (max-width: 640px) {
+        div :global(.portfolio-grid) {
+          grid-template-columns: 1fr;  /* 在移动设备上堆叠图片 */
+        }
       }
     `}</style>
   </div>
