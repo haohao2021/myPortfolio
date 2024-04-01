@@ -1,9 +1,10 @@
 
 const Gallery = () => {
   const images = [
-    { src: 'https://res.cloudinary.com/moonbomber/image/upload/v1710422193/blog/visual/kr92ydy9ogfbtyzwqhvd.jpg', alt: 'Description 1' },
-    { src: 'https://res.cloudinary.com/moonbomber/image/upload/v1710422193/blog/visual/mhci779nw4c3i0ht5ppp.jpg', alt: 'Description 2' },
-    { src: 'https://res.cloudinary.com/moonbomber/image/upload/v1710422192/blog/visual/iluzs1aqu9isnk0jhopa.jpg', alt: 'Description 3' },
+    { src: 'https://res.cloudinary.com/moonbomber/image/upload/v1711965151/blog/visual/FullSizeRender_VSCO_glbb0k.jpg', alt: 'Stockholm' },
+    { src: 'https://res.cloudinary.com/moonbomber/image/upload/v1710422193/blog/visual/kr92ydy9ogfbtyzwqhvd.jpg', alt: 'Gothenburg' },
+    { src: 'https://res.cloudinary.com/moonbomber/image/upload/v1710422193/blog/visual/mhci779nw4c3i0ht5ppp.jpg', alt: 'Gothenburg' },
+    { src: 'https://res.cloudinary.com/moonbomber/image/upload/v1710422192/blog/visual/iluzs1aqu9isnk0jhopa.jpg', alt: 'Gothenburg' },
     { src: 'https://res.cloudinary.com/moonbomber/image/upload/v1710422192/blog/visual/dvbus28cxsao6bz883sp.jpg' },
     { src: 'https://res.cloudinary.com/moonbomber/image/upload/v1710422192/blog/visual/nwv8xsjks5nzvvql6x4q.jpg' },
     { src: 'https://res.cloudinary.com/moonbomber/image/upload/v1710422191/blog/visual/fi0ue61de6jmxs6h513x.jpg' },
