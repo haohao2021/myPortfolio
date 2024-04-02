@@ -16,7 +16,7 @@ export default ({ url }) => <div className='navigation'>
       display: flex;
       justify-content: flex-end;
       margin: 3rem -.5rem 1rem;
-      font-family: 'Helvetica', sans-serif;
+      font-family: 'Futura', sans-serif;
     }
     .navigation :global(span) {
       color: #999;

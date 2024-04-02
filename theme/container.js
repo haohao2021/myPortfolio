@@ -9,7 +9,7 @@ export default ({ children, ...props }) => (
         margin: auto;
         padding: 4rem 1rem 0;
         max-width: 38rem;
-        font-family: 'Helvetica', sans-serif;
+        font-family: 'Futura', sans-serif;
       }
 
       :global(body) {

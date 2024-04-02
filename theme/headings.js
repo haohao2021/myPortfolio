@@ -1,10 +1,10 @@
-const H1 = ({ children, id, ...props }) => <h1 id={id} {...props}>
+const H1 = ({ children, id, lang, ...props }) => <h1 id={id} {...props}>
   {children}
   <style jsx>{`
     h1 {
       font-size: 1.5em;
       font-weight: 800;
-      font-family: 'Helvetica', sans-serif;
+      font-family: 'Futura', sans-serif;
     }
   `}</style>
 </h1>

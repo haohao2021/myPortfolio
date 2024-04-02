@@ -4,7 +4,7 @@ export default ({ children, meta = {} }) => (
     <style jsx>{`
       div {
         margin: 2rem 0 5rem;
-        font-family: 'Helvetica', sans-serif;
+        font-family: 'Futura', sans-serif;
       }
       div :global(p) {
         margin-top: 1.5rem;
@@ -24,6 +24,7 @@ export default ({ children, meta = {} }) => (
         text-emphasis-position: under;
         font-style: inherit;
       } 
+      
 
       div :global(li > p) {
         margin-top: 0;
