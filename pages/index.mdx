@@ -1,5 +1,6 @@
 import about from "../templates/about";
 import { Analytics } from "@vercel/analytics/react";
+import CreditsModal from "../components/creditsModal"
 
 export const meta = {
   title: "Haohao Yu",
@@ -15,7 +16,7 @@ Signal acquired, good morning! :)
 
 I'm a student from China now based in Stockholm, pursuing an MSc in Media Technology, and seeking opportunities as a web developer.
 
-[email](mailto:haohao.yu1123@gamil.com) · [ins](https://www.instagram.com/haohao.yu1123/) · [vsco](https://vsco.co/haohaoyu1123/gallery) · [douban](https://www.douban.com/people/weizhishux) · [bilibili](https://space.bilibili.com/280293477?spm_id_from=333.999.0.0) · [spotify](https://open.spotify.com/user/31ocz6om6a22baba6f4slccy4fyu?si=609b253a213f4d11)
+[email](mailto:haohao.yu1123@gamil.com) · [github](https://github.com/haohao2021) · [ins](https://www.instagram.com/haohao.yu1123/) · [vsco](https://vsco.co/haohaoyu1123/gallery) · [douban](https://www.douban.com/people/weizhishux) · [bilibili](https://space.bilibili.com/280293477?spm_id_from=333.999.0.0) · [spotify](https://open.spotify.com/user/31ocz6om6a22baba6f4slccy4fyu?si=609b253a213f4d11)
 
 ### Projects
 
@@ -117,8 +118,9 @@ I'm a student from China now based in Stockholm, pursuing an MSc in Media Techno
         alt="First Project"
       />
     </a>
-    <p className="portfolio-description">KTH Student Web (redesign: web1 to web2) &nbsp;
-    <a href="https://prezi.com/view/uFxs12HfhdaLWeqkl3X9/" style={{ textDecoration: 'underline' }}>[⇒design process]</a></p>
+    <p className="portfolio-description">KTH Student Web (redesign: web1 to web2; PWA) &nbsp;
+    <a href="https://prezi.com/view/uFxs12HfhdaLWeqkl3X9/" style={{ textDecoration: 'underline' }}>[⇒presentation]</a></p>
+    {/* <CreditsModal >[⇒credits]</CreditsModal> */}
   </div>
 
   <div className="portfolio-item">
